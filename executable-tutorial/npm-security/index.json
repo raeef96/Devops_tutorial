@@ -1,0 +1,41 @@
+{
+    "title": "npm Dependency Management and Security Auditing",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install npm",
+          "text": "step1/text.md",
+          "verify": "step1/verify.sh"
+        },
+        {
+          "title": "Set up a new Node.js project",
+          "text": "step2/text.md",
+          "verify": "step2/verify.sh"
+        },
+        {
+          "title": "Basic security audits with npm audit",
+          "text": "step3/text.md"
+        },
+        {
+          "title": "Advanced security audits with Snyk",
+          "text": "step4/text.md",
+          "verify": "step4/verify.sh"
+        },
+        {
+          "title": "GitHub Actions for automated security audits",
+          "text": "step5/text.md",
+          "verify": "step5/verify.sh"          
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
+  
