@@ -6,6 +6,6 @@ You have successfully learned how to manage, check, and secure npm dependencies.
 
 By keeping your dependencies secure, you contribute to the overall safety and reliability of your software, helping to prevent issues from reaching production.
 
-Did you find our hidden Easter egg? 🥚🔍 Be sure to read everything very carefully, especially step 5!
+Easter egg: Did you find our hidden egg? 🥚🔍 Be sure to read everything very carefully, especially step 5!
 
 Thanks! 😊

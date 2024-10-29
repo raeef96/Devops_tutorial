@@ -7,7 +7,7 @@ In this scenario, you will learn how to manage, check, and secure npm dependenci
 1. **Initialize and manage a Node.js project**: You will set up a Node.js project and install dependencies using npm.
 2. **Identify security vulnerabilities using npm audit**: You will learn to run basic security checks using the `npm audit` command to detect known vulnerabilities in your dependencies.
 3. **Enhance security scanning with Snyk**: You will install and configure Snyk, a powerful security tool, to perform advanced vulnerability detection and receive actionable remediation advice.
-4. **Set up automated security checks with Snyk using GitHub Actions**: You will integrate GitHub Actions to automate security checks on every code change, ensuring continuous monitoring of your project.
+4. **Set up automated security checks with Snyk using GitHub Actions**: You will learn how to integrate GitHub Actions to automate security checks on every code change, ensuring continuous monitoring of your project.
 
 **Key Tools and Concepts** 🧰
 
