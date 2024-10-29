@@ -66,8 +66,8 @@ snyk monitor
 
 **Remeber!** Without creating an account, you won't be able to access the full dashboard view; however, pictures of the dashboard will be provided for reference.
 
-<img src="../assets/snykdash.png" height="200">
+<img src="../assets/snykdash.png" height="300">
 
-<img src="../assets/snykdash2.png" height="200">
+<img src="../assets/snykdash2.png" height="350">
 
 Now that we have set up Snyk to run security audits on our project, let's show how to integrate Snyk into our GitHub Actions workflow in the next step. This will allow Snyk to automate the scanning process each time changes are made in our repository.
