@@ -14,4 +14,13 @@ npm audit
 
 Examine the audit results. You will see a list of any vulnerabilities found and recommended steps for addressing them.
 
-**Important**: Do **not** update the dependencies and fix these issues. We will display them with Snyk in the next step.
+The `npm audit` command provides a useful, basic security scan for npm dependencies. However, it has several limitations that can hinder its effectiveness in a DevOps environment:
+
+1. **Single Ecosystem**: `npm audit` is restricted to the npm ecosystem. It does not support other languages and frameworks like Python, Java, or PHP. This is a disadvantage if your application uses multiple languages.
+2. **Lack of Continuous Monitoring**: `npm audit` checks for vulnerabilities only at the time of execution. If a new vulnerability is discovered later, it won’t alert you unless you run the command again.
+3. **Limited Remediation Options**: While `npm audit` may recommend updating packages, it lacks other remediation techniques, such as patching vulnerabilities without full version upgrades, which can be crucial for dependencies that require specific versions.
+4. **Basic Reporting**: The audit report provides only essential information and sometimes lacks actionable steps. 
+
+These limitations make it challenging to rely solely on `npm audit` for long-term security. Therefore, there is a strong need for more comprehensive security scanning tools that provide ongoing monitoring, detailed remediation options, and support for multiple languages—features.
+
+**Important**: Do **not** update the dependencies and fix these issues. In the next step, we’ll use Snyk to conduct a more comprehensive security scan on the same vulnerabilities.

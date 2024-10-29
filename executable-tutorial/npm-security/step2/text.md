@@ -2,7 +2,7 @@
 
 <img src="../assets/nodejs.jpg" height="200">
 
-First, you will create a new Node.js project and install some dependencies. 
+In this step, you will create a new Node.js project and install some dependencies. 
 
 Run the following commands in your terminal:
 

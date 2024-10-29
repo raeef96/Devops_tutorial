@@ -2,7 +2,7 @@
 
 <img src="../assets/npm.jpg" height="200">
 
-In this step, we will install `npm` (Node Package Manager) to manage Node.js dependencies.
+We'll start the tutorial by installing `npm` (Node Package Manager) to manage Node.js dependencies.
 
 First, update your package index:
 

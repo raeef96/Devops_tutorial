@@ -4,7 +4,7 @@
 
 In this step, we will integrate Snyk into our GitHub Actions workflow by creating the necessary YAML configuration files. This integration will allow us to automatically scan our code for vulnerabilities each time a change is made to the repository.
 
-Although we do not have an actual repository at the moment, we will simulate the process by creating a `.github` folder and a `workflows` folder within it.
+Although we do not have an actual repository at the moment, we will simulate the process by creating a `.github` folder and a `workflows` folder within it. This will allow us to demonstrate how the YAML configuration file for Snyk mighjt look like in a typical setup, but it will not execute a real vulnerability scan in this tutorial.
 
 **Create the folder structure**
 
@@ -75,4 +75,4 @@ jobs:
 We do not have a real GitHub repository but in order to run the Snyk action, you need to add your Snyk API token to your GitHub repository secrets. This can be done by going to your reposirory's Settings > Secrets and variables > Actions. 
 
 
-By following these steps, you have successfully integrated Snyk with GitHub Actions.
+By following these steps, you should have a basic understanding of how to set up a GitHub Actions workflow to integrate Snyk from this simulated setup.
