@@ -10,7 +10,7 @@ Snyk is a powerful security tool that helps developers automatically find and fi
 
 Snyk integrates seamlessly with platforms like GitHub, GitLab, and Bitbucket, making it easy to add security scanning directly into your CI/CD pipeline. It provides real-time monitoring for new vulnerabilities and even helps you track and manage issues over time, keeping your projects secure.
 
-## Why Snyk Provides More Comprehensive Security Than npm audit
+## Why Snyk is better than npm audit
 
 When compared with `npm audit`, Snyk offers a range of additional features that make it an ideal choice for DevOps and DevSecOps workflows:
 
@@ -36,7 +36,7 @@ npm install -g snyk
 
 You will be prompted to log in to Snyk. If you don't have an account yet, create one for free at https://app.snyk.io. You can skip this part if you do not want to create an account.
 
-Your Auth Token can be found here: [Snyk Auth Token](https://app.snyk.io/account). Alternatively, if you prefer not to create an account, you can use the following Auth Token: `4e7ffd73-8827-48f9-80ec-d2d430371650`. Note: Without creating an account, you won't be able to access the full dashboard view; however, pictures of the dashboard will be provided for reference.
+Your Auth Token can be found here: [Snyk Auth Token](https://app.snyk.io/account). Alternatively, if you prefer not to create an account, you can use the following Auth Token: `4e7ffd73-8827-48f9-80ec-d2d430371650`. Note: Without creating an account, you won't be able to access the dashboard view; however, pictures of the dashboard will be provided for reference.
 
 <img src="../assets/authtoken.png" height="200"> You can find the Auth Token on the [Snyk Auth Token](https://app.snyk.io/account) page.
 
@@ -64,7 +64,7 @@ snyk monitor
 
 - **`snyk monitor`**: Monitors your project for vulnerabilities over time by creating a snapshot of your dependencies and their current state. This command uploads your dependency information to Snyk's servers, allowing you to receive alerts about new vulnerabilities as they are discovered. It helps you keep your project secure by continuously tracking your dependencies. You can track the project on your [Snyk dashboard](https://app.snyk.io/), which will provide ongoing monitoring and alerts as soon as new issues arise. Note: To access the dashboard, you'll need to create an account and use your own Auth Token from the previous step instead of the provided sample token.
 
-**Remeber!** Without creating an account, you won't be able to access the full dashboard view; however, pictures of the dashboard will be provided for reference.
+**Remeber!** Without creating an account, you won't be able to access the dashboard view; however, pictures of the dashboard will be provided for reference.
 
 <img src="../assets/snykdash.png" height="300">
 

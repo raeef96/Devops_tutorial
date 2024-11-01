@@ -4,6 +4,9 @@
 
 In this step, you will learn how to use `npm audit` to detect vulnerabilities in your project dependencies.
 
+## What is npm audit?
+TEXT HERE
+
 Run the audit to check for vulnerabilities:
 
 ```plain

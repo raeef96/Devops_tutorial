@@ -76,7 +76,6 @@ nano snyk.yml
 
 **Add your Snyk token**
 
-We do not have a real GitHub repository but in order to run the Snyk action, you need to add your Snyk API token to your GitHub repository secrets. This can be done by going to your reposirory's Settings > Secrets and variables > Actions. 
-
+We do not have a real GitHub repository but in order to run the Snyk action, you need to add your Snyk API token / Auth Token to your GitHub repository secrets. This can be done by going to your reposirory's Settings > Secrets and variables > Actions > Repository secrets. Create a new secret named `SNYK_TOKEN` and paste in your token from the previous step or use the sample token provided: `4e7ffd73-8827-48f9-80ec-d2d430371650`. Note: If you use the sample token, you won’t have access to the Snyk dashboard view.
 
 By following these steps, you should have a basic understanding of how to set up a GitHub Actions workflow to integrate Snyk from this simulated setup.
