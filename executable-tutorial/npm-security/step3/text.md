@@ -18,6 +18,8 @@ npm audit
 
 Examine the audit results. You will see a list of any vulnerabilities found and recommended steps for addressing them.
 
+## Limitations
+
 The `npm audit` command provides a useful, basic security scan for npm dependencies. However, it has several limitations that can hinder its effectiveness in a DevOps environment:
 
 1. **Single Ecosystem**: `npm audit` is restricted to the npm ecosystem. It does not support other languages and frameworks like Python, Java, or PHP. This is a disadvantage if your application uses multiple languages.
