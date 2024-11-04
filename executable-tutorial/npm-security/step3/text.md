@@ -6,7 +6,7 @@ In this step, you will learn how to use `npm audit` to detect vulnerabilities in
 
 ## What is npm audit?
 
-TEXT HERE
+`npm audit` is a tool that checks your project’s dependencies for known security issues. It quickly scans your installed packages, detects vulnerabilities, and provides a report with the severity of each issue along with suggestions for fixing them.
 
 Run the audit to check for vulnerabilities:
 
@@ -25,6 +25,6 @@ The `npm audit` command provides a useful, basic security scan for npm dependenc
 3. **Limited Remediation Options**: While `npm audit` may recommend updating packages, it lacks other remediation techniques, such as patching vulnerabilities without full version upgrades, which can be crucial for dependencies that require specific versions.
 4. **Basic Reporting**: The audit report provides only essential information and sometimes lacks actionable steps. 
 
-These limitations make it challenging to rely solely on `npm audit` for long-term security. Therefore, there is a strong need for more comprehensive security scanning tools that provide ongoing monitoring, detailed remediation options, and support for multiple languages—features.
+These limitations make it challenging to rely solely on `npm audit` for long-term security. Therefore, there is a strong need for more comprehensive security scanning tools that provide ongoing monitoring, detailed remediation options, and support for multiple languages—features. 
 
 **Important**: Do **not** update the dependencies and fix these issues. In the next step, we’ll use Snyk to conduct a more comprehensive security scan on the same vulnerabilities.
