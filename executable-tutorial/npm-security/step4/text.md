@@ -18,9 +18,11 @@ When compared with `npm audit`, Snyk offers a range of additional features that 
    
 2. **Support for Multiple Languages**: While `npm audit` is limited to Node.js, Snyk supports JavaScript, Python, Java, .NET, PHP, Ruby, and more, making it suitable for projects that use multiple languages and package managers.
 
-3. **Enhanced Remediation Capabilities**: Unlike `npm audit`, which only suggests updates, Snyk can automatically apply **precision patches** that fix vulnerabilities without needing a full version upgrade. This can be crucial for maintaining dependency compatibility.
+3. **Wider Database Coverage**: Snyk’s vulnerability database aggregates data from multiple sources, including the npm advisory database, public issue trackers, security researchers, and their own research. This results in more thorough coverage than `npm audit`, which only relies on npm’s security advisory database.
 
-4. **Detailed Reports and Integration with CI/CD**: Snyk integrates with GitHub, GitLab, and Bitbucket, allowing you to scan every commit and pull request. It also provides in-depth reports with clear paths for remediation, while `npm audit` offers basic reports with fewer actionable recommendations.
+4. **Enhanced Remediation Capabilities**: Unlike `npm audit`, which only suggests updates, Snyk can automatically apply **precision patches** that fix vulnerabilities without needing a full version upgrade. This can be crucial for maintaining dependency compatibility.
+
+5. **Detailed Reports and Integration with CI/CD**: Snyk integrates with GitHub, GitLab, and Bitbucket, allowing you to scan every commit and pull request. It also provides in-depth reports with clear paths for remediation, while `npm audit` offers basic reports with fewer actionable recommendations.
 
 With these capabilities, Snyk delivers a more robust solution for maintaining security throughout the development lifecycle.
 
@@ -44,7 +46,7 @@ Your Auth Token can be found here: [Snyk Auth Token](https://app.snyk.io/account
 snyk auth <Auth Token>
 ```
 
-- **`snyk auth <Auth Token>`**: Authenticates your Snyk CLI with your Snyk account using the provided Auth Token.
+- **`snyk auth <Auth Token>`**: Authenticates your Snyk CLI with your Snyk account using the provided/your Auth Token.
 
 Run a security test to find vulnerabilities:
 

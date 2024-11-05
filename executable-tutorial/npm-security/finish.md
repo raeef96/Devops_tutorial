@@ -8,4 +8,4 @@ By keeping your dependencies secure, you contribute to the overall safety and re
 
 Easter egg: Did you find our hidden egg? 🥚🔍 Be sure to read everything very carefully, especially step 5!
 
-Thanks! 😊
+Good work! 😊
