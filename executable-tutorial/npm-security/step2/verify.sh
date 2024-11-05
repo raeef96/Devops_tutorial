@@ -9,6 +9,7 @@ if [ -f "npm-security/package.json" ]; then
     echo "node_modules directory exists."
   else
     echo "node_modules directory is missing."
+    exit 1
   fi
 else
   echo "Project setup failed."
