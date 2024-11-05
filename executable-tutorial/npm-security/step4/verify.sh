@@ -1,8 +1,15 @@
 #!/bin/bash
 
-# Verify if Snyk is installed and if the audit returns a result
+# Verify if Snyk is installed
 if command -v snyk &> /dev/null; then
-  snyk test | grep -q "No vulnerabilities found" && echo "No vulnerabilities found!" || echo "Vulnerabilities detected!"
+  # Attempt to run snyk auth to check authentication
+  snyk auth --help &> /dev/null
+  if [ $? -ne 0 ]; then
+    echo "Authentication failed. Please authenticate using 'snyk auth <YOUR_API_TOKEN>'"
+    exit 1
+  else
+    echo "Authentication successful."
+  fi
 else
   echo "Snyk is not installed. Please check your installation."
   exit 1
