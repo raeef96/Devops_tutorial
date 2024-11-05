@@ -14,7 +14,7 @@ Run the audit to check for vulnerabilities:
 npm audit
 ```{{exec}}
 
-- **`npm audit`**: Runs a security audit on your project’s dependencies. It checks for known vulnerabilities in the installed packages and generates a report with the severity of the issues, paths to the vulnerable packages, and recommendations for resolving them.
+- **`npm audit`**: Runs a security audit on your project’s dependencies. It checks for known vulnerabilities in the installed packages and returns a report with the severity of the issues, paths to the vulnerable packages, and recommendations for resolving them.
 
 Examine the audit results. You will see a list of any vulnerabilities found and recommended steps for addressing them.
 
@@ -22,7 +22,7 @@ Examine the audit results. You will see a list of any vulnerabilities found and 
 
 The `npm audit` command provides a useful, basic security scan for npm dependencies. However, it has several limitations that can hinder its effectiveness in a DevOps environment:
 
-1. **Single Ecosystem**: `npm audit` is restricted to the npm ecosystem. It does not support other languages and frameworks like Python, Java, or PHP. This is a disadvantage if your application uses multiple languages.
+1. **Limited to Known Vulnerabilities**: `npm audit` relies on the npm security advisory database, which contains known vulnerabilities reported by maintainers and the community. It cannot detect new or unknown vulnerabilities or issues that haven’t been reported.
 2. **Lack of Continuous Monitoring**: `npm audit` checks for vulnerabilities only at the time of execution. If a new vulnerability is discovered later, it won’t alert you unless you run the command again.
 3. **Limited Remediation Options**: While `npm audit` may recommend updating packages, it lacks other remediation techniques, such as patching vulnerabilities without full version upgrades, which can be crucial for dependencies that require specific versions.
 4. **Basic Reporting**: The audit report provides only essential information and sometimes lacks actionable steps. 
